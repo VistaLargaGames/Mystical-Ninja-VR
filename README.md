@@ -1,5 +1,8 @@
 <img width="1671" height="941" alt="Mystical Ninja VR starring Goemon: 60fps, FPS camera, immersive gameplay, Meta Quest standalone" src="banner.webp" />
 
+<img width="500" height="333" alt="ezgif-663769be15f93e6b" src="https://github.com/user-attachments/assets/d4966255-342c-4f1c-a3df-9633e8c512f9" />
+
+
 # Mystical Ninja VR starring Goemon: Meta Quest 3 Standalone
 
 A standalone port of [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon64Recomp) (Mystical Ninja Starring Goemon) that runs natively on the Meta Quest 3. Explore Oedo in VR!
@@ -48,10 +51,6 @@ bash quest/apply_submodule_patches.sh
 ```
 
 Then follow [BUILDING.md](BUILDING.md) for the game code (you need your own ROM) and the Quest steps in [CLAUDE.md](CLAUDE.md) ("Building"): Android NDK 29, `tools/quest/configure_android.sh`, then `tools/quest/package.sh`. The VR code is in `src/quest/` (OpenXR session, head-aimed camera, picture pacing) and `patches/` (camera, sky and viewport hooks). `CLAUDE.md` is the full development log.
-
-## Known issues
-
-- The title, menus and pause are shown on a floating screen in front of you.
 
 ## Credits
 
