@@ -1,0 +1,3 @@
+# Keep the Quest patches byte-exact (git apply) and the scripts runnable on Linux/macOS.
+submodule-patches/*.patch -text
+*.sh text eol=lf
