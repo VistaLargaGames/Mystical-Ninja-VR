@@ -16,7 +16,7 @@ A standalone port of [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon
 
 ## Install
 
-1. Download the APK from [Releases](../../releases).
+1. Download the APK: [MysticalNinjaVR-Quest-0.1.17.apk](https://github.com/VistaLargaGames/Mystical-Ninja-VR/raw/main/download/MysticalNinjaVR-Quest-0.1.17.apk) (also on the [Releases](../../releases) page).
 2. Install it with SideQuest (or `adb install`).
 3. Start it from **Library > Unknown Sources**.
 4. On first start, choose your copy of the game (North American / USA version) in the start window. The game checks the file and remembers it; after that just press **Play**.
