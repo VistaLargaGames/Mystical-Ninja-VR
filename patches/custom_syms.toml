@@ -1,9 +1,0 @@
-# Custom symbols used for patches.
-[[section]]
-name = "ABSOLUTE_SYMS"
-vram = 0x00000000
-size = 0x0
-
-symbols = [
-    
-]
