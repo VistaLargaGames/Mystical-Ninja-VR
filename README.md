@@ -48,18 +48,6 @@ A standalone port of [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon
 | Right stick click | Camera behind Goemon |
 | Menu button | Pause |
 
-## Building from source
-
-The full source of the Quest port (the `quest-vr` work on top of Goemon 64: Recompiled) is in the [v0.1.17 tag](https://github.com/VistaLargaGames/Mystical-Ninja-VR/tree/v0.1.17). The libraries it uses are git submodules at their upstream versions; the Quest changes to RT64, plume, zstd, nativefiledialog-extended, mupen64plus-win32-deps and N64ModernRuntime are in `quest/submodule-patches`.
-
-```bash
-git clone --recursive --branch v0.1.17 https://github.com/VistaLargaGames/Mystical-Ninja-VR.git
-cd Mystical-Ninja-VR
-bash quest/apply_submodule_patches.sh
-```
-
-Then follow [BUILDING.md](https://github.com/VistaLargaGames/Mystical-Ninja-VR/blob/v0.1.17/BUILDING.md) for the game code (you need your own ROM) and the Quest steps in [CLAUDE.md](https://github.com/VistaLargaGames/Mystical-Ninja-VR/blob/v0.1.17/CLAUDE.md) ("Building"): Android NDK 29, `tools/quest/configure_android.sh`, then `tools/quest/package.sh`. The VR code is in `src/quest/` (OpenXR session, head-aimed camera, picture pacing) and `patches/` (camera, sky and viewport hooks). `CLAUDE.md` is the full development log.
-
 ## Credits
 
 Built on [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon64Recomp) by klorfmorf and contributors (GPL-3.0), [N64Recomp](https://github.com/N64Recomp/N64Recomp), [N64ModernRuntime](https://github.com/N64Recomp/N64ModernRuntime) and [RT64](https://github.com/rt64/rt64) (MIT). The original README is in [docs/README-Goemon64Recomp.md](https://github.com/VistaLargaGames/Mystical-Ninja-VR/blob/v0.1.17/docs/README-Goemon64Recomp.md).
