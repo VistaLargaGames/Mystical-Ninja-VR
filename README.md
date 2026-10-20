@@ -17,6 +17,14 @@ A standalone port of [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon
 - **Sharp picture:** 2688 x 2816 per frame with 2x anti-aliasing.
 - **Plug and play:** pick your ROM in the start window and play.
 
+## What's new in 0.1.20
+
+- **Impact robot fights:** the cockpit view now stays steady. Before, the camera swayed and
+  zoomed as Impact walked, and the fight kept switching between immersive VR and a flat
+  floating screen.
+- **Aiming the crosshair all the way down** no longer drops you out of VR into the flat screen.
+- Works in every Impact fight, including the last one.
+
 ## Install
 
 1. Download the APK: [MysticalNinjaVR-Quest-0.1.20.apk](https://github.com/VistaLargaGames/Mystical-Ninja-VR/raw/main/download/MysticalNinjaVR-Quest-0.1.20.apk) (also on the [Releases](../../releases) page).
