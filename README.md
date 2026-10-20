@@ -1,13 +1,17 @@
-<img width="1671" height="941" alt="Mystical Ninja VR starring Goemon: 60fps, FPS camera, immersive gameplay, Meta Quest standalone" src="banner.webp" />
-
-<img width="500" height="333" alt="ezgif-663769be15f93e6b" src="https://github.com/user-attachments/assets/d4966255-342c-4f1c-a3df-9633e8c512f9" />
-
-
 # Mystical Ninja VR starring Goemon: Meta Quest 3 Standalone
 
 A standalone port of [Goemon 64: Recompiled](https://github.com/klorfmorf/Goemon64Recomp) (Mystical Ninja Starring Goemon) that runs natively on the Meta Quest 3. Explore Oedo in VR!
 
 > **⚠️ You must own the game.** This project does not include Mystical Ninja Starring Goemon or any of its assets. Use a ROM made from your own cartridge (North American / USA version). Do not ask for ROMs.
+
+
+
+
+<img width="1671" height="941" alt="Mystical Ninja VR starring Goemon: 60fps, FPS camera, immersive gameplay, Meta Quest standalone" src="banner.webp" />
+
+<img width="500" height="333" alt="ezgif-663769be15f93e6b" src="https://github.com/user-attachments/assets/d4966255-342c-4f1c-a3df-9633e8c512f9" />
+
+
 
 ## Features
 
